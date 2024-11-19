@@ -21,3 +21,7 @@ Fait par :
    Le protocole TCP assure une transmission de données fiable, ordonnée et sans perte. Il établit une connexion virtuelle entre l'émetteur et le récepteur, ce qui permet de garantir la livraison de tous les segments de données. TCP implémente des mécanismes de contrôle de flux et de congestion pour optimiser l'utilisation du réseau.
 
 > ***Avantages***
+- **Fiabilité:** TCP garantit que les données soient transmises dans l'ordre et sans erreurs. Il retransmet les paquets perdus ou corrompus, assurant ainsi une livraison fiable et complète.
++ **Contrôle de flux:** TCP ajuste le débit des données en fonction de la capacité du réseau et régule la transmission , évitant ainsi la congestion.
+* **Connexion orientée:** TCP établit une connexion stable entre l'émetteur et le récepteur avant de transmettre les données.
+/ **Idéal pour:** Les applications nécessitant une haute fiabilité, comme le transfert de fichiers, le courrier électronique, le streaming vidéo de haute qualité et les applications de VoIP.
