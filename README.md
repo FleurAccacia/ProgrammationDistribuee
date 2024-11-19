@@ -1,4 +1,4 @@
-# Exercice de Programmation Distribuée
+# *Exercice de Programmation Distribuée*
 
 Fait par : 
 
