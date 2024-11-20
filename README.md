@@ -30,7 +30,17 @@ Fait par :
 + **Complexité :** TCP est un protocole dont le processus de connexion et de vérification est plus complexe que UDP, ce qui peut entraîner une surcharge de traitement.
 * Temps de configuration plus long
 - **Latence :** La fiabilité et le contrôle de flux de TCP peuvent introduire une latence plus élevée, ce qui peut être problématique pour les applications en temps réel.
-- **Overhead plus important :** TCP nécessite plus de ressources et bande passante.
++ **Overhead plus important :** TCP nécessite plus de ressources et bande passante.
 
 
 ###  . Avantages et inconvénients UDP (User Datagram Protocol)
+
+Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie qu'il n'y a pas d'établissement de connexion préalable. Les datagrammes UDP sont transmis individuellement, sans garantie de livraison ni d'ordre d'arrivée.
+
+> ***Avantages***
+* **Vitesse :** UDP effectue une transmission rapide sans mécanismes complexes de contrôle.
+- **Légèreté :** UDP est un protocole léger, ce qui le rend idéal pour les applications à faible bande passante et rend la communication plus directe.
++ Idéal pour Les applications en temps réel telles que les jeux vidéo en ligne, la vidéoconférence, la diffusion en direct, les applications de chat et les protocoles de découverte de réseau.
+* **Overhead minimal :** Utilisation de moins de ressources système.
+
+> ***Incovénients***
