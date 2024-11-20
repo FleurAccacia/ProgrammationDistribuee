@@ -1,6 +1,6 @@
 # *Exercice de Programmation Distribuée*
 
-Fait par : 
+<ins>Fait par :</ins> 
 
 - Gracia GOKAR
 
