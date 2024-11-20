@@ -73,7 +73,6 @@ TCP et UDP sont deux protocoles essentiels pour la communication sur les réseau
 | **Utilisation réseau** | Consomme plus de bande passante et de ressources système    | Utilise moins de bande passante, idéal pour les réseaux saturés |
 
 > ~~Notes~~
- ~~Notes~~
 L'overhead impacte La vitesse de transmission, L'utilisation de la bande passante et Les ressources système nécessaires.
 
 TCP a un overhead plus important car il ajoute :
@@ -95,3 +94,4 @@ C'est pour cela que :
 * TCP est plus "lourd" mais plus fiable
 + UDP est plus "léger" mais moins fiable
 
+### Conclusion
