@@ -27,10 +27,10 @@
 - Idéal pour Les applications nécessitant une haute fiabilité, comme le transfert de fichiers, le courrier électronique, le streaming vidéo de haute qualité et les applications de VoIP.
 
 > ***Inconvénients***
-+ **Complexité :** TCP est un protocole dont le processus de connexion et de vérification est plus complexe que UDP, ce qui peut entraîner une surcharge de traitement.
++ **Complexité :** TCP/IP est un protocole dont le processus de connexion et de vérification est plus complexe que UDP, ce qui peut entraîner une surcharge de traitement.
 * Temps de configuration plus long
 - **Latence :** La fiabilité et le contrôle de flux de TCP peuvent introduire une latence plus élevée, ce qui peut être problématique pour les applications en temps réel.
-+ **Overhead plus important :** TCP nécessite plus de ressources et bande passante.
++ **Overhead plus important :** TCP/IP nécessite plus de ressources et bande passante.
 
 
 ###  ~ Avantages et inconvénients UDP (User Datagram Protocol)
