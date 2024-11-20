@@ -74,4 +74,4 @@ TCP et UDP sont deux protocoles essentiels pour la communication sur les réseau
 
 
 ### Conclusion
-En conclusion, TCP et UDP offrent des compromis différents entre fiabilité et performance. TCP offre une fiabilité élevée mais au détriment de la latence, tandis que UDP privilégie la vitesse au détriment de la fiabilité. Nous pouvons en noter que le choix du protocole approprié dépendra donc principalement des compromis à faire en fonction des besoins de l'application.
+En conclusion, les protocoles TCP/IP et UDP offrent des compromis différents entre fiabilité et performance. TCP/IP offre une fiabilité élevée mais au détriment de la latence, tandis que UDP privilégie la vitesse au détriment de la fiabilité. Nous pouvons en noter que le choix du protocole approprié dépendra donc principalement des compromis à faire en fonction des besoins de l'application.
