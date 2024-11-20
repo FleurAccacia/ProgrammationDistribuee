@@ -51,6 +51,9 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 * **Pas de connexion orienté :** UDP est un protocole sans connexion, ce qui signifie qu'il n'y a pas de garantie que les données seront reçues.
 - Aucune reprise en cas de perte de paquets.
 
+
+###  ~ Comparaison TCP/IP vs UDP
+
 > Tableau Comparatif Récapitulatif
 
 
