@@ -56,4 +56,14 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 
 > Tableau Comparatif Récapitulatif
 
+| *Critère*                | *TCP/IP*                       | *UDP*                          |
+|----------------------------|-----------------------------------|-----------------------------------|
+| *Type de protocole*      | Orienté connexion                | Sans connexion                   |
+| *Fiabilité*              | Oui (retransmission et vérification) | Non (pas de retransmission)      |
+| *Vitesse*                | Plus lent                        | Très rapide                      |
+| *Ordre des paquets*      | Garanti                          | Pas garanti                      |
+| *Surcharge de données*   | Élevée (en-têtes lourds)         | Faible (en-têtes légers)         |
+| *Applications principales*| Web, e-mails, transfert de fichiers | Streaming, jeux, VoIP           |
+
+
 
