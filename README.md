@@ -2,11 +2,11 @@
 
 Fait par : 
 
--AKAVI Marco-Florent
+- Gracia GOKAR
 
--NAMADOU Rasika
+- Rasika NAMADOU
 
--Gracia GOKAR
+- Marco-Florent AKAVI
 
 ## Comparaison (Avantages et inconvénients ) TCP/IP & UDP
 
@@ -16,7 +16,7 @@ Fait par :
 
 
 
-###  . Avantages et inconvénients TCP/IP (Transmission Control Protocol/Internet Protocol)
+###  ~ Avantages et inconvénients TCP/IP (Transmission Control Protocol/Internet Protocol)
 
    Le protocole TCP/IP assure une transmission de données fiable, ordonnée et sans perte. Il établit une connexion virtuelle entre l'émetteur et le récepteur, ce qui permet de garantir la livraison de tous les segments de données. TCP/IP implémente des mécanismes de contrôle de flux et de congestion pour optimiser l'utilisation du réseau.
 
@@ -33,7 +33,7 @@ Fait par :
 + **Overhead plus important :** TCP nécessite plus de ressources et bande passante.
 
 
-###  . Avantages et inconvénients UDP (User Datagram Protocol)
+###  ~ Avantages et inconvénients UDP (User Datagram Protocol)
 
 Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie qu'il n'y a pas d'établissement de connexion préalable. Les datagrammes UDP sont transmis individuellement, sans garantie de livraison ni d'ordre d'arrivée.
 
@@ -44,3 +44,8 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 * **Overhead minimal :** Utilisation de moins de ressources système.
 
 > ***Incovénients***
+- **Moins fiable :** UDP ne garantit pas la livraison des données. Les paquets peuvent être perdus, dupliqués ou arrivés dans le désordre.
++ **Pas de contrôle de flux :** UDP n'a pas de mécanisme de contrôle de flux, ce qui peut entraîner une congestion du réseau.
+* **Pas de connexion orienté :** UDP est un protocole sans connexion, ce qui signifie qu'il n'y a pas de garantie que les données seront reçues.
+- Aucune reprise en cas de perte de paquets.
++
