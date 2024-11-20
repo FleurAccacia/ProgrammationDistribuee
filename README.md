@@ -71,7 +71,3 @@ TCP et UDP sont deux protocoles essentiels pour la communication sur les réseau
 | **Sécurité**           | Moins vulnérable grâce à des protections intégrées          | Plus vulnérable à cause de l’absence de vérification |
 | **Applications**       | Adapté pour les transferts de fichiers, e-mails, web (HTTP/HTTPS) | Idéal pour le streaming, les jeux, VoIP, flux en temps réel |
 | **Utilisation réseau** | Consomme plus de bande passante et de ressources système    | Utilise moins de bande passante, idéal pour les réseaux saturés |
-
-
-### Conclusion
-En conclusion, les protocoles TCP/IP et UDP offrent des compromis différents entre fiabilité et performance. TCP/IP offre une fiabilité élevée mais au détriment de la latence, tandis que UDP privilégie la vitesse au détriment de la fiabilité. Nous pouvons en noter que le choix du protocole approprié dépendra donc principalement des compromis à faire en fonction des besoins de l'application.
