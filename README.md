@@ -56,14 +56,17 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 
 > Tableau Comparatif Récapitulatif
 
-| *Critère*                | *TCP/IP*                       | *UDP*                          |
-|----------------------------|-----------------------------------|-----------------------------------|
-| *Type de protocole*      | Orienté connexion                | Sans connexion                   |
-| *Fiabilité*              | Oui (retransmission et vérification) | Non (pas de retransmission)      |
-| *Vitesse*                | Plus lent                        | Très rapide                      |
-| *Ordre des paquets*      | Garanti                          | Pas garanti                      |
-| *Surcharge de données*   | Élevée (en-têtes lourds)         | Faible (en-têtes légers)         |
-| *Applications principales*| Web, e-mails, transfert de fichiers | Streaming, jeux, VoIP           |
 
+| **Critère**            | **TCP (Transmission Control Protocol)**                     | **UDP (User Datagram Protocol)**                   |
+|------------------------|-------------------------------------------------------------|---------------------------------------------------|
+| **Type de protocole**  | Orienté connexion                                           | Sans connexion                                    |
+| **Fiabilité**          | Garantit la livraison, l’ordre et l’intégrité des données   | Pas de garantie de livraison ni de contrôle d’erreurs |
+| **Vitesse**            | Plus lent à cause des contrôles et de l’établissement de connexion | Très rapide grâce à l’absence de contrôle       |
+| **Ordre des paquets**  | Garanti                                                     | Pas garanti                                       |
+| **Surcharge réseau**   | Plus lourd en raison des mécanismes de contrôle complexes   | Léger avec des en-têtes simples                  |
+| **Contrôle d’erreurs** | Retransmet les données perdues ou corrompues                | Pas de contrôle intégré, doit être géré par l’application |
+| **Sécurité**           | Moins vulnérable grâce à des protections intégrées          | Plus vulnérable à cause de l’absence de vérification |
+| **Applications**       | Adapté pour les transferts de fichiers, e-mails, web (HTTP/HTTPS) | Idéal pour le streaming, les jeux, VoIP, flux en temps réel |
+| **Utilisation réseau** | Consomme plus de bande passante et de ressources système    | Utilise moins de bande passante, idéal pour les réseaux saturés |
 
 
