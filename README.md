@@ -20,6 +20,7 @@
 
    Le protocole TCP/IP assure une transmission de données fiable, ordonnée et sans perte. Il établit une connexion virtuelle entre l'émetteur et le récepteur, ce qui permet de garantir la livraison de tous les segments de données. TCP/IP implémente des mécanismes de contrôle de flux et de congestion pour optimiser l'utilisation du réseau.
 
+
 > ***Avantages***
 - **Fiabilité :** TCP/IP garantit que les données soient transmises dans l'ordre et sans erreurs. Il retransmet les paquets perdus ou corrompus, assurant ainsi une livraison fiable et complète.
 + **Contrôle de flux :** TCP/IP ajuste le débit des données en fonction de la capacité du réseau et régule la transmission , évitant ainsi la congestion.
@@ -42,6 +43,7 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 - **Légèreté :** UDP est un protocole léger, ce qui le rend idéal pour les applications à faible bande passante et rend la communication plus directe.
 + Idéal pour Les applications en temps réel telles que les jeux vidéo en ligne, la vidéoconférence, la diffusion en direct, les applications de chat et les protocoles de découverte de réseau.
 * **Overhead minimal :** Utilisation de moins de ressources système.
+
 
 > ***Incovénients***
 - **Moins fiable :** UDP ne garantit pas la livraison des données. Les paquets peuvent être perdus, dupliqués ou arrivés dans le désordre.
