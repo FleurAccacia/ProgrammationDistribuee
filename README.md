@@ -48,4 +48,7 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 + **Pas de contrôle de flux :** UDP n'a pas de mécanisme de contrôle de flux, ce qui peut entraîner une congestion du réseau.
 * **Pas de connexion orienté :** UDP est un protocole sans connexion, ce qui signifie qu'il n'y a pas de garantie que les données seront reçues.
 - Aucune reprise en cas de perte de paquets.
+
+> Tableau Comparatif Récapitulatif
+
 +
