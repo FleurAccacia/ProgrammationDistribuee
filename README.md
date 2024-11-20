@@ -96,4 +96,4 @@ C'est pour cela que :
 + UDP est plus "léger" mais moins fiable
 
 ### Conclusion
-En conclusion, TCP et UDP offrent des compromis différents entre fiabilité et performance. TCP offre une fiabilité élevée mais au détriment de la latence, tandis que UDP privilégie la vitesse au détriment de la fiabilité. Le choix du protocole approprié dépendra donc principalement des compromis à faire en fonction des besoins de l'application.
+En conclusion, Le protocole TCP/IP et UDP offrent des compromis différents entre fiabilité et performance. TCP/IP offre une fiabilité élevée mais au détriment de la latence, tandis que UDP privilégie la vitesse au détriment de la fiabilité. Le choix du protocole approprié dépendra donc principalement des compromis à faire en fonction des besoins de l'application.
