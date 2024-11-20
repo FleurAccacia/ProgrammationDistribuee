@@ -54,7 +54,10 @@ Le protocole UDP offre un service de datagrammes sans connexion, ce qui signifie
 
 ###  ~ Comparaison TCP/IP vs UDP
 
-> Tableau Comparatif Récapitulatif
+TCP et UDP sont deux protocoles essentiels pour la communication sur les réseaux informatiques. Le tableau ci-dessous compare les principaux critères de performance et d’utilisation entre le protocole TCP, et le protocole UDP en mettant en évidence leurs forces et faiblesses selon les besoins des applications réseau.
+
+> ***Tableau Comparatif Récapitulatif***
+
 
 
 | **Critère**            | **TCP (Transmission Control Protocol)**                     | **UDP (User Datagram Protocol)**                   |
